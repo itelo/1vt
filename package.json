@@ -1,0 +1,42 @@
+{
+  "name": "1vp",
+  "version": "0.1.0",
+  "description": "Vim-like terminal UI for 1Password",
+  "type": "module",
+  "bin": {
+    "1vp": "./src/cli.tsx"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.tsx",
+    "build": "tsup src/cli.tsx --format esm --dts",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [
+    "1password",
+    "tui",
+    "terminal",
+    "vim",
+    "ink"
+  ],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.30.3",
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  },
+  "dependencies": {
+    "@inkjs/ui": "^2.0.0",
+    "clipboardy": "^5.3.1",
+    "execa": "^9.6.1",
+    "ink": "^6.8.0",
+    "react": "^19.2.4",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "@types/react": "^19.2.14",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
