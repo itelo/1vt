@@ -5,7 +5,7 @@ import { useShallow } from "zustand/react/shallow";
 import type { Screen } from "../lib/types.js";
 
 function buildBreadcrumbs(stack: Screen[]): string {
-  const crumbs: string[] = ["1vp"];
+  const crumbs: string[] = ["1vt"];
   for (const screen of stack) {
     switch (screen.type) {
       case "vault-list":

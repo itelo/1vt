@@ -1,11 +1,11 @@
-# 1vp
+# 1vt
 
 A vim-like terminal UI for [1Password](https://1password.com). Browse vaults, search items, and copy credentials — all without leaving the terminal.
 
 Built with [Ink](https://github.com/vadimdemedes/ink) (React for CLI), powered by the [1Password CLI](https://developer.1password.com/docs/cli/).
 
 ```
- 1vp > Private > Items (142)
+ 1vt > Private > Items (142)
 ─────────────────────────────────────────────────────────
    1  > [Login] GitHub                    github.com
    1    [Login] Gmail                     gmail.com
@@ -38,8 +38,8 @@ Built with [Ink](https://github.com/vadimdemedes/ink) (React for CLI), powered b
 
 ```bash
 # From source
-git clone https://github.com/itelo/1vp.git
-cd 1vp
+git clone https://github.com/itelo/1vt.git
+cd 1vt
 pnpm install
 pnpm dev
 ```

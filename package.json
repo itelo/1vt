@@ -1,10 +1,10 @@
 {
-  "name": "1vp",
+  "name": "1vt",
   "version": "0.1.0",
   "description": "Vim-like terminal UI for 1Password",
   "type": "module",
   "bin": {
-    "1vp": "./dist/cli.js"
+    "1vt": "./dist/cli.js"
   },
   "main": "./dist/cli.js",
   "files": [
@@ -28,9 +28,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/itelo/1vp.git"
+    "url": "https://github.com/itelo/1vt.git"
   },
-  "homepage": "https://github.com/itelo/1vp",
+  "homepage": "https://github.com/itelo/1vt",
   "packageManager": "pnpm@10.30.3",
   "pnpm": {
     "onlyBuiltDependencies": ["esbuild"]
