@@ -1,5 +1,5 @@
 {
-  "name": "1vt",
+  "name": "@itelo/1vt",
   "version": "1.0.0",
   "description": "Vim-like terminal UI for 1Password",
   "type": "module",
